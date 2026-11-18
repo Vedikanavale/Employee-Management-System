@@ -1,0 +1,24 @@
+# Employee Management System
+
+A Flask web app where an admin can manage employee records, built with Python, Flask and SQLite.
+
+## Features
+- Secure admin login (passwords are stored as hashes, never as plain text)
+- First-time setup page to create the admin account
+- Add, search, update and delete employee records
+- Dashboard showing total employees, average salary and department-wise counts
+
+## Built with
+Python, Flask, SQLite, HTML, CSS
+
+## Run it on your computer
+```
+pip install -r requirements.txt
+python app.py
+```
+Open http://127.0.0.1:5000 in your browser. On the first visit you will be asked to create the admin account.
+
+## Project structure
+- `app.py` - the whole backend: database, login and pages
+- `templates/` - the HTML pages
+- `static/style.css` - the styling
